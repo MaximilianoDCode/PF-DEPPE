@@ -156,7 +156,7 @@ footer
 
 .en-venta{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     column-gap: 30px;
 }
 
@@ -272,5 +272,17 @@ footer
 
     #ovni{
         grid-area: ovni;
+    }
+}
+
+@media (width < 1660px){
+    .en-venta {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (width < 1130px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
     }
 }
