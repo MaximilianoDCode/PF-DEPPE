@@ -1,0 +1,117 @@
+.lt-blancas{
+    color: $color-main;
+}
+
+.pag-productos{
+    display: flex;
+    padding-top: 30px;
+}
+
+.en-venta{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    figure{
+        background-color: $b-section-color;
+        border-style: inset;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.mangas{
+    width: 300px;
+}
+
+.tabla {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    td, .tabla th{
+        border: 1px solid rgb(10, 8, 8);
+        padding: 8px;
+    }
+    tr:nth-child(even){background-color: #7b86ff;}
+    tr:nth-child(odd){background-color: #edff95;}
+    tr:hover {background-color: #ddd;}
+    th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: rgb(226, 226, 226);
+    }
+}
+
+@media (width < 1660px){
+    .en-venta {
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 60px;
+    }
+}
+
+@media (width < 1332px){
+    .en-venta {
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 10px;
+    }
+}
+
+@media (width < 1230px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 220px;
+    }
+}
+
+@media (width < 1130px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 70px;
+    }
+}
+
+@media (width < 970px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+    }
+}
+
+@media (width < 970px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+    }
+}
+
+@media (width < 768px){
+    table tr th,td{
+    font-size: 0.9em;
+    }
+    .none{
+        display: none;
+    }
+    .en-venta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (width < 580px){
+    .pag-productos{
+        display: flex;
+        flex-direction: column;
+        form{
+            text-align: center;
+        }
+    }
+}
+
+@media (width < 350px){
+    .mangas{
+        width: 250px;
+    }
+}

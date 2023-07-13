@@ -21,7 +21,7 @@ header img
 
 footer
 {
-    background-color: rgb(0, 200, 255);
+    background-color: rgb(65,154,177);
     display: flex;
     justify-content: space-around;
 }
@@ -161,7 +161,7 @@ footer
 }
 
 .en-venta figure{
-    background-color: #1629fa;
+    background-color: blue;
     border-style: inset;
     padding: 10px;
     display: flex;

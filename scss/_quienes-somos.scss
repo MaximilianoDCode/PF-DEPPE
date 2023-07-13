@@ -1,0 +1,41 @@
+
+
+.Logos-editoriales
+{
+    width: 150px;
+    height: 150px;
+}
+
+.quienes-somos{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.editoriales{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (width < 768px){
+    .editoriales{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "ivrea ivrea panini panini"
+        ". ovni ovni .";
+    }
+    #ivrea{
+        grid-area: ivrea;
+    }
+
+    #panini{
+        grid-area: panini;
+    }
+
+    #ovni{
+        grid-area: ovni;
+    }
+}

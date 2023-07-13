@@ -1,0 +1,67 @@
+//micinss starts
+@mixin index($padding,$display,$direction,$items){
+    padding: $padding;
+    display: $display;
+    flex-direction: $direction;
+    align-items: $items;
+}
+//mixins ends
+.section-index-1{
+    background-color: $b-section-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.News{
+    background-color: $b-news-color;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: dashed;
+    @include index(20px, flex, column, center);
+}
+.productos-destacados{
+    background-color: $b-section-color;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    figure{
+        @include index(20px, flex, column, center);
+        background-color: $b-destacados-color;
+    }
+}
+//extend starts
+.img
+{
+    width: 250px;
+    height: 350px;
+    &:hover{
+        transform: rotate(-360deg);
+        transition:all 2s;
+    }
+}
+
+.img-2{
+    @extend .img;
+    &:hover{
+        transform: rotate(360deg);
+        transition:all 2s;
+    }
+}
+
+.mangas-destacados{
+    @extend .mangas;
+}
+//extends ends
+
+@media (width < 768px){
+    .section-index-1{
+        flex-direction: column;
+    }
+    .productos-destacados{
+        flex-direction: column;
+    }
+}

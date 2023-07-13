@@ -1,0 +1,100 @@
+//commons
+main
+{
+    background: url(../img/fondo-main/fondo.jpg);
+}
+
+header {
+    background-image: url(../img/header/berserk.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    h1{
+        color: blue;
+        text-align: center;
+        font-size: 3.1em;
+    }
+  }
+
+footer
+{
+    background-color:$b-main-color;
+    display: flex;
+    justify-content: space-around;
+    ul li{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+        }
+    }
+    div{
+        display: flex;
+        align-items: center;
+        a img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+// clases
+.padding-20px{
+    padding-left: 20px;
+}
+
+.margin-right-300px{
+    margin-right: 300px;
+}
+
+.margin-bottom-5px{
+    margin-bottom: 5px;
+}
+
+.botonera
+{
+    background-color: $b-main-color;
+    a{
+        color:$color-main;
+        &:hover{
+            color: rgb(24, 24, 24);
+        }
+    }
+
+}
+
+.Footer
+{
+    color: $color-main;
+    display: flex;
+    justify-content: space-between;
+}
+
+.white
+{
+    font-size: 3em;
+    color: $color-main;
+    text-align: center;
+}
+
+.dp-block{
+    display: block;
+}
+
+.tx-center{
+    text-align: center;
+}
+
+
+@media (width < 768px){
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prueba{
+        display: flex;
+    }
+    .white{
+        font-size: 1.5em;
+    }
+}
