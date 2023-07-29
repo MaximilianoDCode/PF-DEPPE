@@ -4,7 +4,7 @@ main {
 }
 
 header {
-  background-image: url(../img/header/berserk.jpg);
+  background-image: url(../img/header/berserk.webp);
   background-size: cover;
   width: 100%;
   height: 800px;
@@ -16,7 +16,7 @@ header h1 {
 }
 
 footer {
-  background-color: rgb(65, 154, 177);
+  background-color: rgb(24, 10, 130);
   display: flex;
   justify-content: space-around;
 }
@@ -48,7 +48,7 @@ footer div a img {
 }
 
 .botonera {
-  background-color: rgb(65, 154, 177);
+  background-color: rgb(24, 10, 130);
 }
 .botonera a {
   color: aliceblue;
@@ -77,21 +77,23 @@ footer div a img {
   text-align: center;
 }
 
-@media (width < 768px) {
-  .Footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .prueba {
-    display: flex;
-  }
-  .white {
-    font-size: 1.5em;
-  }
+#error404 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/creative1-404.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 8%;
 }
+#error404 a {
+  text-decoration: dotted;
+  font-size: large;
+  margin-left: 50%;
+}
+
 .section-index-1 {
-  background-color: blue;
+  background-color: rgb(29, 32, 45);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -99,10 +101,10 @@ footer div a img {
 }
 
 .News {
-  background-color: rgb(224, 200, 136);
+  background-color: rgb(100, 98, 95);
   width: auto;
-  height: auto;
-  margin: 10px;
+  height: 600px;
+  margin: 30px;
   border: dashed;
   padding: 20px;
   display: flex;
@@ -111,7 +113,7 @@ footer div a img {
 }
 
 .productos-destacados {
-  background-color: blue;
+  background-color: rgb(29, 32, 45);
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -123,7 +125,9 @@ footer div a img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(182, 99, 250);
+  background-color: rgb(184, 182, 186);
+  border-style: inset;
+  border-color: rgb(232, 232, 232);
 }
 
 .img, .img-2 {
@@ -140,14 +144,11 @@ footer div a img {
   transition: all 2s;
 }
 
-@media (width < 768px) {
-  .section-index-1 {
-    flex-direction: column;
-  }
-  .productos-destacados {
-    flex-direction: column;
-  }
+.mangas-destacados:hover {
+  transform: scale(1.4);
+  transition: all 0.5s;
 }
+
 .lt-blancas {
   color: aliceblue;
 }
@@ -163,7 +164,7 @@ footer div a img {
   column-gap: 30px;
 }
 .en-venta figure {
-  background-color: blue;
+  background-color: rgb(29, 32, 45);
   border-style: inset;
   padding: 10px;
   display: flex;
@@ -199,6 +200,49 @@ footer div a img {
   text-align: left;
   background-color: #04AA6D;
   color: rgb(226, 226, 226);
+}
+
+.buscador {
+  background-color: rgb(184, 182, 186);
+  height: 300px;
+  margin: 30px;
+  padding: 30px;
+}
+
+.Logos-editoriales {
+  width: 150px;
+  height: 150px;
+}
+
+.quienes-somos {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.editoriales {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  background-color: rgb(184, 182, 186);
+  padding: 30px;
+}
+
+.Logo-contactos {
+  width: 75px;
+  height: 75px;
+}
+
+.links {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (width < 1660px) {
@@ -264,24 +308,10 @@ footer div a img {
     width: 250px;
   }
 }
-.Logos-editoriales {
-  width: 150px;
-  height: 150px;
-}
-
-.quienes-somos {
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-.editoriales {
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 @media (width < 768px) {
+  .nosotros {
+    flex-direction: column;
+  }
   .editoriales {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -298,16 +328,32 @@ footer div a img {
     grid-area: ovni;
   }
 }
-.Logo-contactos {
-  width: 50px;
-  height: 50px;
+@media (width < 410px) {
+  .nosotros img {
+    width: 300px;
+    height: 480px;
+  }
 }
-
-.links {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
+@media (width < 768px) {
+  .section-index-1 {
+    flex-direction: column;
+  }
+  .productos-destacados {
+    flex-direction: column;
+  }
+}
+@media (width < 768px) {
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prueba {
+    display: flex;
+  }
+  .white {
+    font-size: 1.5em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,128 @@
+//Tienda
+@media (width < 1660px){
+    .en-venta {
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 60px;
+    }
+}
+
+@media (width < 1332px){
+    .en-venta {
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 10px;
+    }
+}
+
+@media (width < 1230px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 220px;
+    }
+}
+
+@media (width < 1130px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 70px;
+    }
+}
+
+@media (width < 970px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+    }
+}
+
+@media (width < 970px){
+    .en-venta {
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+    }
+}
+
+@media (width < 768px){
+    table tr th,td{
+    font-size: 0.9em;
+    }
+    .none{
+        display: none;
+    }
+    .en-venta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (width < 580px){
+    .pag-productos{
+        display: flex;
+        flex-direction: column;
+        form{
+            text-align: center;
+        }
+    }
+}
+
+@media (width < 350px){
+    .mangas{
+        width: 250px;
+    }
+}
+
+//Quienes Somos
+@media (width < 768px){
+    .nosotros{
+        flex-direction: column;
+    }
+    .editoriales{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "ivrea ivrea panini panini"
+        ". ovni ovni .";
+    }
+    #ivrea{
+        grid-area: ivrea;
+    }
+
+    #panini{
+        grid-area: panini;
+    }
+
+    #ovni{
+        grid-area: ovni;
+    }
+}
+@media (width < 410px){
+    .nosotros img{
+        width: 300px;
+        height: 480px;
+    }
+}
+
+//index 
+@media (width < 768px){
+    .section-index-1{
+        flex-direction: column;
+    }
+    .productos-destacados{
+        flex-direction: column;
+    }
+}
+
+//commons
+@media (width < 768px){
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prueba{
+        display: flex;
+    }
+    .white{
+        font-size: 1.5em;
+    }
+}

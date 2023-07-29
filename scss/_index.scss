@@ -16,8 +16,8 @@
 .News{
     background-color: $b-news-color;
     width: auto;
-    height: auto;
-    margin: 10px;
+    height: 600px;
+    margin: 30px;
     border: dashed;
     @include index(20px, flex, column, center);
 }
@@ -31,6 +31,8 @@
     figure{
         @include index(20px, flex, column, center);
         background-color: $b-destacados-color;
+        border-style: inset;
+        border-color: rgb(232, 232, 232);
     }
 }
 //extend starts
@@ -54,14 +56,9 @@
 
 .mangas-destacados{
     @extend .mangas;
+    &:hover{
+        transform: scale(1.4);
+        transition: all .5s;
+    }
 }
 //extends ends
-
-@media (width < 768px){
-    .section-index-1{
-        flex-direction: column;
-    }
-    .productos-destacados{
-        flex-direction: column;
-    }
-}

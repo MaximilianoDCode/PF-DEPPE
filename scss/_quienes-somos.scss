@@ -18,24 +18,9 @@
     justify-content: space-evenly;
 }
 
-@media (width < 768px){
-    .editoriales{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(2,1fr);
-        grid-template-areas: 
-        "ivrea ivrea panini panini"
-        ". ovni ovni .";
-    }
-    #ivrea{
-        grid-area: ivrea;
-    }
-
-    #panini{
-        grid-area: panini;
-    }
-
-    #ovni{
-        grid-area: ovni;
-    }
+.nosotros{
+    display: flex;
+    align-items: center;
+    background-color: $b-destacados-color;
+    padding: 30px;
 }
