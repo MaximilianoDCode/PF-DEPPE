@@ -29,7 +29,7 @@ https://wireframe.cc/LmN4IP (CONTACTOS)
 https://wireframe.cc/3vD9Ic (QUIENES SOMOS)
 https://wireframe.cc/Gd9sms (PACKS DE SERIES COMPLETAS)
 
-Link pages: https://maximilianodcode.github.io/PreEntrega3-Deppe/
+Link pages: https://github.com/MaximilianoDCode/PF-DEPPE.git
 
 Link del repo: https://github.com/MaximilianoDCode/PreEntrega3-Deppe.git
 
