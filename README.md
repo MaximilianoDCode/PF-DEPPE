@@ -17,21 +17,30 @@ mi idea
 WAREFRAMES ESCRITORO
 
 https://wireframe.cc/ADp2CN (INDEX)
+
 https://wireframe.cc/IANHj0 (MANGAS)
+
 https://wireframe.cc/67sma3 (CONTACTOS)
+
 https://wireframe.cc/075xFP (QUIENES SOMOS)
+
 https://wireframe.cc/h6UKuu (PACKS DE SERIES COMPLETAS)
+
 
 WAREFRAMES MOVILE
 https://wireframe.cc/f6bG0f (INDEX)
+
 https://wireframe.cc/226FSr (MANGAS)
+
 https://wireframe.cc/LmN4IP (CONTACTOS)
+
 https://wireframe.cc/3vD9Ic (QUIENES SOMOS)
+
 https://wireframe.cc/Gd9sms (PACKS DE SERIES COMPLETAS)
 
-Link pages: https://github.com/MaximilianoDCode/PF-DEPPE.git
+Link pages: https://maximilianodcode.github.io/PF-DEPPE/
 
-Link del repo: https://github.com/MaximilianoDCode/PreEntrega3-Deppe.git
+Link del repo: https://github.com/MaximilianoDCode/PF-DEPPE.git
 
 link del sitio web: https://amazing-stardust-c382cf.netlify.app
 
