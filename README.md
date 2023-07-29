@@ -1,5 +1,5 @@
 # PF-Deppe
-MI TRAYECTO
+## MI TRAYECTO
 
 Decidí hacer este curso para ver que tal todo este mundo, sin saber que me encontraría, pero despues de las dos primeras clases me atrapó totalmente, entre la profe, una genia total, y los tutores, fue muy ameno este recorrido.
 
@@ -7,9 +7,11 @@ En la primer pre entrega fue todo color de rosas, pude hacer todo lo que tenia p
 
 En definitiva una aventura que me dejó una grata experiencia, encontré lo que me gustaía seguir aprendiendo y expandiendome.
 
-MI PROYECTO
+## MI PROYECTO
 
-mi idea 
+mi idea del sitio web es una tienda de mangas, proyecto que tengo junto a algunos amigos, para en algun futuro llegar a poner una tienda.
+
+En la pantalla "index"
 
 
 
