@@ -11,12 +11,20 @@ En definitiva una aventura que me dejó una grata experiencia, encontré lo que 
 
 mi idea del sitio web es una tienda de mangas, proyecto que tengo junto a algunos amigos, para en algun futuro llegar a poner una tienda.
 
-En la pantalla "index"
+En la pantalla "index" inicia con un banner del manga "Berserk" y el nombre de la tienda, debajo hay datos sobre algunos mangas, que irán cambiando por día, y luego los mangas más vendidos de la semana.
+
+En la pantalla "mangas" es una lista de los articulos que están en venta y donde los usuarios pueden buscar específicamente lo que estan buscando, debajo de la barra de búsqueda mi idea en un principio era hacer una imagen donde se podría ver algunas ofertas, como envío gratis a partir de determinado gasto, pero por los inconvenientes no pude realizar la imagen.
+
+En la pantalla "packs de series completas" empieza con un carrusel de imagenes de nuestras estanterias y debajo una lista de IPs que se venden al completo, para no tener que estar buscándolos uno por uno y que sea mucho mas rápido su compra.
+
+En la pantalla "
 
 
 
 
-WAREFRAMES ESCRITORO
+
+
+## WAREFRAMES ESCRITORO
 
 https://wireframe.cc/ADp2CN (INDEX)
 
@@ -29,7 +37,8 @@ https://wireframe.cc/075xFP (QUIENES SOMOS)
 https://wireframe.cc/h6UKuu (PACKS DE SERIES COMPLETAS)
 
 
-WAREFRAMES MOVILE
+## WAREFRAMES MOBILE
+
 https://wireframe.cc/f6bG0f (INDEX)
 
 https://wireframe.cc/226FSr (MANGAS)
@@ -44,5 +53,5 @@ Link pages: https://maximilianodcode.github.io/PF-DEPPE/
 
 Link del repo: https://github.com/MaximilianoDCode/PF-DEPPE.git
 
-link del sitio web: https://amazing-stardust-c382cf.netlify.app
+link del sitio web: https://curso-coderhause.netlify.app
 
