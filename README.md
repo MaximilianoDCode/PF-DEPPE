@@ -17,12 +17,20 @@ En la pantalla "mangas" es una lista de los articulos que están en venta y dond
 
 En la pantalla "packs de series completas" empieza con un carrusel de imagenes de nuestras estanterias y debajo una lista de IPs que se venden al completo, para no tener que estar buscándolos uno por uno y que sea mucho mas rápido su compra.
 
-En la pantalla "
+En la pantalla "contactos" se puede ver un mapa de donde está nuestro deposito para poder retirar por ahí las compras, junto con un formulario para que se llene y nos consulten sobre cualquier tema con respecto a las compras y debajo nuestras redes para que nos sigan y puedan contactarnos también por ahí.
+
+En la pantalla "quienes somos" está la foto de quenes llevan la tienda y una simple descripción de nuestro objetivo con la tienda. y mostramos las editoriales con las que trabajamos.
 
 
+## LENGUAJES UTILIZADOS
 
+- HTML
+- CSS
+- SCSS
 
+## FRAMEWORKS
 
+- Boostrap
 
 ## WAREFRAMES ESCRITORO
 
