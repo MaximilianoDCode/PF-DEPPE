@@ -9,6 +9,7 @@ En definitiva una aventura que me dejó una grata experiencia, encontré lo que 
 
 MI PROYECTO
 
+mi idea 
 
 
 
